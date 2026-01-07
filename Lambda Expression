@@ -1,0 +1,28 @@
+> An Interface with only one Abstract function
+
+interface note{
+	
+	void display();
+}
+
+
+
+public class Lambda_Expression_Example {
+
+	public static void main(String[] args) {
+		
+//		note n1=new note() {
+		
+		note n1=()->
+		{
+			
+				System.out.println("LongSize Note...");
+			};
+			n1.display();
+			
+		}
+	
+		
+
+	}
+
