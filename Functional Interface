@@ -1,0 +1,27 @@
+> Functional Interface has only one method
+> It don't create class directly ,it will create object and access the method 
+
+interface A{
+	
+	void display();
+}
+
+
+
+public class Functional_Interface {
+
+	public static void main(String[] args) {
+		
+     A a1=new A() {
+    	 
+		public void display() {
+			System.out.println("Functional Interface Running.......");
+		}
+
+     
+     };
+     
+     a1.display();
+	}
+}
+
